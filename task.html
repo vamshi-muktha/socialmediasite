@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>tasklist</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div><p class="logo">TaskConnect</p></div>
+            <div>
+                <ul><li><a href="/login.html">Home</a></li>
+                    <li><a href="/main.html">Chat</a></li>
+                    <li><a href="/task.html">Task List</a></li>
+                </ul>
+            </div>   
+        </div>
+    </header>
+    <section>
+        <div class="taskbox">
+            <form action="" id="form">
+                <input type="text" id="input" placeholder="Enter task.." required>
+                <button type="submit">submit</button>
+            </form>
+            <div id="tasklist"></div>
+        </div>   
+    </section>
+    <script src="task.js"></script>
+</body>
+</html>

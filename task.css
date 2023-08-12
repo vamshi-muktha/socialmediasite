@@ -1,0 +1,90 @@
+body{
+  overflow-y: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-image: linear-gradient(to right bottom,#a8eb12, #00bf72, #008793,#004d7a,#051937 );
+}
+header{
+  position:sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:1000;
+}
+.nav{
+  height: 50px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items:center;
+  background-color:rgb(1, 1, 87);
+  color:#afb6cd;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.logo{
+  color:rgb(3, 249, 32);
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px;
+}
+a:hover{
+  cursor: pointer;
+  color:white;
+}
+a{
+  text-decoration: none;
+  color: #afb6cd;
+  font-size: larger;
+}
+.taskbox{
+  margin: 100px 75px 100px 75px;
+  justify-content: center;
+  border:5px solid #00bf72;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  width:85%;
+  min-height: 500px;
+}
+#form{
+  display: flex;
+  gap: 10px;
+}
+.taskstyle{
+  font-family: cursive;
+  color: aliceblue;
+  font-size: larger;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color:rgba(2, 2, 117,0.5);
+}
+input{
+  background-color:rgba(6, 7, 6, 0.5);
+  width: 100%;
+  font-size: larger;
+  border-radius: 20px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+}
+button{
+  border-radius: 10px;
+  background-color:rgba(6, 6, 248, 0.8);
+  color: #a8eb12;
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+}
+button:active{
+  transform: scale(0.90);
+}
